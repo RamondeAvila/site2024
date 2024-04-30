@@ -12,19 +12,27 @@ body { background-color: rgb(0, 255, 68);
   margin:0 16px;
   padding: 100px 0;
   font-size: 40px;}
-
   .cabecalho{
-    background-color: blue;
-    color: aqua;
-    display: flex; 
+    background-color: rgb(159, 243, 4);
+    color: blue;
+    display: flex   ;
     justify-content: space-around;
+    padding: 24px 0;
   }
-
-  .cabecalho-iten
-{display: inline-block;
-  margin: 16px;
+.cabecalho-item
+    {display: inline-block;
+    margin: 0x 16px;
   padding: 24px 0;
-  font: size 24px;
+font-size: 24px;}
 
-  
+.escola-imagem{
+  width: 400%;
 }
+
+
+.escola{background-image: linear-gradient(red , blue);
+        color: white;
+       display: flex;
+        justify-content: center;
+       align-items: center;
+        padding: 24px 0;}
